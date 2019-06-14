@@ -30,6 +30,7 @@ ages.filter((age) => {  return age >= 18; });
 */
 
     render(){
+        console.log("hello everybody!!!");
         return(
             <div>
                 <Header userInput={(datafromheader)=> this.filterNews(datafromheader)}/>
